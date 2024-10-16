@@ -1,0 +1,2195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Orion's HTML & CSS Cheatsheet</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&display=swap" rel="stylesheet">
+    </head>
+
+
+     <header>
+     </header>
+    
+    
+     <body>
+
+        <section class="header-content">
+            <h1 class="h-title">Orion's HTML & CSS Cheatsheet</h1>
+            <p class="h-subline">A Codecademy project for my portfolio</p>
+        </section>
+
+<!-- NAVIGATION -->        
+
+        <nav class="navigation" id="html-nav">
+            <details>
+                <summary>
+                    <h1 class="nav-header">HTML</h1>
+                    <!-- <span class="icon">&#10148;</span> -->
+                </summary>
+                <details class="nav-subsection">
+                    <summary>
+                        <h2 class="nav-subheader">Structural</h2>
+                    </summary>
+                    <ul>
+                        <a href="#structural"><li>INDEX</li></a>
+                        <a href="#comments"><li>Comments</li></a>
+                        <a href="#doctype"><li>&#60;!DOCTYPE&#62;</li></a>
+                        <a href="#html"><li>&#60;html&#62;</li></a>
+                        <a href="#head"><li>&#60;head&#62;</li></a>
+                        <a href="#header"><li>&#60;header&#62;</li></a>
+                        <a href="#body"><li>&#60;body&#62;</li></a>
+                        <a href="#footer"><li>&#60;footer&#62;</li></a>
+                    </ul>
+                </details>
+                
+                <details class="nav-subsection">
+                    <summary>
+                        <h2 class="nav-subheader">Head Tags</h2>
+                    </summary>
+                    <ul>
+                        <a href="#head-tags"><li>INDEX</li></a>
+                        <a href="#title"><li>&#60;title&#62;</li></a>
+                        <a href="#base"><li>&#60;base&#62;</li></a>
+                        <a href="#style"><li>&#60;style&#62;</li></a>
+                        <a href="#link"><li>&#60;link&#62;</li></a>
+                        <a href="#meta"><li>&#60;meta&#62;</li></a>
+                        <a href="#noscript"><li>&#60;noscript&#62;</li></a>
+                        <a href="#script"><li>&#60;script&#62;</li></a>
+                    </ul>
+                </details>
+                <details class="nav-subsection">
+                    <summary>
+                        <h2 class="nav-subheader">Formatting Tags</h2>    
+                    </summary>
+                    <ul>
+                        <a href="#formatting"><li>INDEX A</li></a>
+                        <a href="#h"><li>&#60;h1&#62;-&#60;h6&#62;</li></a>
+                        <a href="#p"><li>&#60;p&#62;</li></a>
+                        <a href="#a"><li>&#60;a&#62;</li></a>
+                        <a href="#br"><li>&#60;br&#62;</li></a>
+                        <a href="#hr"><li>&#60;hr&#62;</li></a>
+                        <a href="#em"><li>&#60;em&#62;</li></a>
+                        <a href="#strong"><li>&#60;strong&#62;</li></a>
+                        <a href="#aside"><li>&#60;aside&#62;</li></a>
+                        <a href="#abbr"><li>&#60;abbr&#62;</li></a>
+                        <a href="#address"><li>&#60;address&#62;</li></a>
+                        <hr>
+                        <a href="#formatting-2"><li>INDEX B</li></a>
+                        <a href="#b"><li>&#60;b&#62;</li></a>
+                        <a href="#bdi"><li>&#60;bdi&#62;</li></a>
+                        <a href="#bdo"><li>&#60;bdo&#62;</li></a>
+                        <a href="#blockquote"><li>&#60;blockquote&#62;</li></a>
+                        <a href="#cite"><li>&#60;cite&#62;</li></a>
+                        <a href="#code"><li>&#60;code&#62;</li></a>
+                        <a href="#del"><li>&#60;del&#62;</li></a>
+                        <a href="#dfn"><li>&#60;dfn&#62;</li></a>
+                        <a href="#i"><li>&#60;i&#62;</li></a>
+                        <hr>
+                        <a href="#formatting-3"><li>INDEX C</li></a>
+                        <a href="#ins"><li>&#60;ins&#62;</li></a>
+                        <a href="#kbd"><li>&#60;kbd&#62;</li></a>
+                        <a href="#mark"><li>&#60;mark&#62;</li></a>
+                        <a href="#meter"><li>&#60;meter&#62;</li></a>
+                        <a href="#pre"><li>&#60;pre&#62;</li></a>
+                        <a href="#progress"><li>&#60;progress&#62;</li></a>
+                        <a href="#q"><li>&#60;q&#62;</li></a>
+                        <a href="#rp"><li>&#60;rp&#62;</li></a>
+                        <a href="#rt"><li>&#60;rt&#62;</li></a>
+                        <a href="#ruby"><li>&#60;ruby&#62;</li></a>
+                        <hr>
+                        <a href="#formatting-4"><li>INDEX D</li></a>
+                        <a href="#s"><li>&#60;s&#62;</li></a>
+                        <a href="#samp"><li>&#60;samp&#62;</li></a>
+                        <a href="#small"><li>&#60;small&#62;</li></a>
+                        <a href="#sub"><li>&#60;sub&#62;</li></a>
+                        <a href="#sup"><li>&#60;sup&#62;</li></a>
+                        <a href="#template"><li>&#60;template&#62;</li></a>
+                        <a href="#time"><li>&#60;time&#62;</li></a>
+                        <a href="#u"><li>&#60;u&#62;</li></a>
+                        <a href="#var"><li>&#60;var&#62;</li></a>
+                        <a href="#wbr"><li>&#60;wbr&#62;</li></a>
+                    </ul>
+                </details>
+                <details class="nav-subsection">
+                    <summary>
+                        <h2 class="nav-subheader">Semantics</h2>    
+                    </summary>
+                    <ul>
+                        <a href="#semantics"><li>INDEX</li></a>
+                        <a href="#nav"><li>&$60;nav&#62;</li></a>
+                        <a href="#style"><li>&#60;style&#62;</li></a>
+                        <a href="#div"><li>&#60;div&#62;</li></a>
+                        <a href="#span"><li>&#60;span&#62;</li></a>
+                        <a href="#hgroup"><li>&#60;hgroup&#62;</li></a>
+                        <a href="#main"><li>&#60;main&#62;</li></a>
+                        <a href="#section"><li>&#60;section&#62;</li></a>
+                        <a href="#search"><li>&#60;search&#62;</li></a>
+                        <a href="#article"><li>&#60;article&#62;</li></a>
+                        <a href="#details"><li>&#60;details&#62;</li></a>
+                        <a href="#dialog"><li>&#60;dialog&#62;</li></a>
+                        <a href="#summary"><li>&#60;summary&#62;</li></a>
+                        <a href="#data"><li>&#60;data&#62;</li></a>
+                    </ul>
+                </details>
+                <details class="nav-subsection">
+                    <summary>
+                        <h2 class="nav-subheader">Lists</h2>    
+                    </summary>
+                    <ul>
+                        <a href="#lists"><li>INDEX</li></a>
+                        <a href="#menu"><li>&#60;menu&#62;</li></a>
+                        <a href="#ul"><li>&#60;ul&#62;</li></a>
+                        <a href="#ol"><li>&#60;ol&#62;</li></a>
+                        <a href="#li"><li>&#60;li&#62;</li></a>
+                        <a href="#dl"><li>&#60;dl&#62;</li></a>
+                        <a href="#dt"><li>&#60;dt&#62;</li></a>
+                        <a href="#dd"><li>&#60;dd&#62;</li></a>
+                    </ul>
+                </details>
+                <details class="nav-subsection">
+                    <summary>
+                        <h2 class="nav-subheader">Tables</h2>    
+                    </summary>
+                    <ul>
+                        <a href="#tables"><li>INDEX</li></a>
+                        <a href="#table"><li>&#60;table&#62;</li></a>
+                        <a href="#caption"><li>&#60;caption&#62;</li></a>
+                        <a href="#th"><li>&#60;th&#62;</li></a>
+                        <a href="#tr"><li>&#60;tr&#62;</li></a>
+                        <a href="#td"><li>&#60;td&#62;</li></a>
+                        <a href="#thead"><li>&#60;thead&#62;</li></a>
+                        <a href="#tbody"><li>&#60;tbody&#62;</li></a>
+                        <a href="#tfoot"><li>&#60;tfoot&#62;</li></a>
+                        <a href="#col"><li>&#60;col&#62;</li></a>
+                        <a href="#colgroup"><li>&#60;colgroup&#62;</li></a>
+                    </ul>
+                </details>
+
+                <details class="nav-subsection">
+                    <summary>
+                        <h2 class="nav-subheader">Media</h2>    
+                    </summary>
+                        <details class="nav-subsubsection">
+                            <summary>
+                                <h2 class="nav-subheader">Images</h2>    
+                            </summary>
+                                <ul>
+                                    <a href="#images"><li>INDEX</li></a>
+                                    <a href="#img"><li>&#60;img&#62;</li></a>
+                                    <a href="#area"><li>&#60;area&#62;</li></a>
+                                    <a href="#figcaption"><li>&#60;figcaption&#62;</li></a>
+                                    <a href="#figure"><li>&#60;figure&#62;</li></a>
+                                    <a href="#map"><li>&#60;map&#62;</li></a>
+                                    <a href="#picture"><li>&#60;picture&#62;</li></a>
+                                    <a href="#svg"><li>&#60;svg&#62;</li></a>
+                                </ul>
+                        </details>
+                        <details class="nav-subsubsection">
+                            <summary>
+                                <h2 class="nav-subheader">Video</h2>    
+                            </summary>
+                                <ul>
+                                    <a href="#video-tags"><li>INDEX</li></a>
+                                    <a href="#video"><li>&#60;video&#62;</li></a>
+                                    <a href="#vsource"><li>&#60;source&#62;</li></a>
+                                    <a href="#vtrack"><li>&#60;track&#62;</li></a>
+                                </ul>
+                        </details>
+                        <details class="nav-subsubsection">
+                            <summary>
+                                <h2 class="nav-subheader">Audio</h2>    
+                            </summary>
+                                <ul>
+                                    <a href="#audio-tags"><li>INDEX</li></a>
+                                    <a href="#audio"><li>&#60;audio&#62;</li></a>
+                                    <a href="#source"><li>&#60;source&#62;</li></a>
+                                    <a href="#track"><li>&#60;track&#62;</li></a>
+                                </ul>
+                        </details>
+                        <details class="nav-subsubsection">
+                            <summary>
+                                <h2 class="nav-subheader">Web</h2>    
+                            </summary>
+                                <ul>
+                                    <a href="#web"><li>INDEX</li></a>
+                                    <a href="#iframe"><li>&#60;iframe&#62;</li></a>
+                                </ul>
+                        </details>
+                </details>
+                <details class="nav-subsection">
+                    <summary>
+                        <h2 class="nav-subheader">Forms / Input</h2>    
+                    </summary>
+                    <ul>
+                        <a href="#forms"><li>INDEX</li></a>
+                        <a href="#form"><li></li>&#60;form&#62;</li></a>
+                        <a href="#input"><li>&#60;input&#62;</li></a>
+                        <a href="#textarea"><li>&#60;textarea&#62;</li></a>
+                        <a href="#button"><li>&#60;button&#62;</li></a>
+                        <a href="#select"><li>&#60;select&#62;</li></a>
+                        <a href="#optgroup"><li>&#60;optgroup&#62;</li></a>
+                        <a href="#option"><li>&#60;option&#62;</li></a>
+                        <a href="#label"><li>&#60;label&#62;</li></a>
+                        <a href="#fieldset"><li>&#60;fieldset&#62;</li></a>
+                        <a href="#legend"><li>&#60;legend&#62;</li></a>
+                        <a href="#datalist"><li>&#60;datalist&#62;</li></a>
+                        <a href="#output"><li>&#60;output&#62;</li></a>
+                    </ul>
+                </details>
+                <details class="nav-subsection">
+                    <summary>
+                        <h2 class="nav-subheader">Programming</h2>    
+                    </summary>
+                    <ul>
+                        <a href="#programming"><li>INDEX</li></a>
+                        <a href="#embed"><li>&#60;embed&#62;</li></a>
+                        <a href="#object"><li>&#60;object&#62;</li></a>
+                        <a href="#param"><li>&#60;param&#62;</li></a>
+                    </ul>
+                </details>    
+            </details>
+                
+
+
+
+            </details>
+
+            <details>
+                <summary>
+                    <h1 class="nav-header">CSS</h1>
+                    <!-- <span class="icon">&#10148;</span> -->
+                </summary>
+                <details class="nav-subsection">
+                    <summary>
+                        <h2 class="nav-subheader">Section 1</h2>
+                    </summary>
+                    <ul>
+                        <li>Comments</li>
+                    </ul>
+                </details>
+            </details>
+        </nav>
+
+<!-- END NAVIGATION -->
+
+
+<!-- BEGINNING OF CARDS-->
+
+        <section class="content-container">        
+                
+            <!-- STRUCTURAL CARDS -->    
+            <section class="content-section" id="structural">
+                    <section class="first-subject-title">
+                        <h1 class="declaration-header">Structural</h1>
+                        <p class="h-subline">Important Tags For Building a Webpage</p>
+                   </section>
+                   <section class="subject-content">
+                        <h2 class="section-subhead">Cards in this Stack:</h2>
+                        <p>
+                            <table>                            
+                                <thead>
+                                    <th>Tag</th>
+                                    <th class="table-spacer"></th>
+                                    <th>Description</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="#comments">Comments</a></td>                                    
+                                        <td class="table-spacer"></td>  
+                                        <td>&#60;!--...--&#62;	Defines a comment</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#doctype">&#60;!DOCTYPE&#62;</a></td>
+                                        <td class="table-spacer"></th>
+                                        <td>Defines the document type</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#html">&#60;html&#62;</a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines an HTML document</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#head">&#60;head&#62;</a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Contains metadata/information for the document</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#header">&#60;header&#62;</a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines a header for a document or section</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#body">&#60;body&#62;</a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines the document's body</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#footer">&#60;footer&#62;</a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines a footer for a document or section</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </p>
+                    </section>
+                </section>
+                <!--COMMENTS-->
+                <section class="content-section" id="comments">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;-- Comments --&#62;</h1>
+                        <p class="h-subline">Comments make clean code</p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">Comments</h2>
+                        <p class="inline-desc"> help to maintain clean and readable code for when you add someone new to a project or need to go back to old code.</p>
+                    </section>
+                </section>
+                <!--DOCTYPE-->
+                <section class="content-section" id="doctype">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;!DOCTYPE html&#62;</h1>
+                        <p class="h-subline">Defines an HTML Document.</p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;!DOCTYPE html&#62;</h2>
+                        <p class="inline-desc">Required by all browsers, this <strong class="tooltip">informational<abbr class="tooltiptext"><strong>Informational</strong> tags are <strong>NOT</strong> HTML tags and inform the browser about things like format or language.</abbr></strong> tag tells the browser that it is accessing an HTML document.</p>
+                        <p class="inline-desc">The <!DOCTYPE> declaration is NOT case sensitive.</p>
+                        <h2 class="section-subhead">Example:</h2>
+                        <code class="inline-desc">
+                            &#60;!DOCTYPE html&#62;<br>
+                            &#60;html&#62;<br>
+                            &#60;head&#62;<br>
+                            &#60;title&#62;Title of the document&#60;/title&#62;<br>
+                            &#60;/head&#62;<br>
+                            <br>
+                            &#60;body&#62;<br>
+                            The content of the document......<br>
+                            &#60;/body&#62;<br>
+                            
+                            &#60;/html&#62;</code>
+                    </section>
+                </section>
+
+                <section class="content-section" id="html">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;html&#62;</h1>
+                        <p class="h-subline">The Root of an HTML Document</p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;html&#62;</h2>
+                        <p class="inline-desc">contains all html code except for <a href="#doctype">&#60;!DOCTYPE&#62;</a> declaration.</p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="head">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60; &#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="header">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60; &#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="body">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60; &#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="footer">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60; &#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <!-- HEAD TAGS -->
+                <section class="content-section" id="head-tags">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">Head Tags</h1>
+                        <p class="h-subline">Metadata and Linking</p>
+                   </section>
+                   <section class="subject-content">
+                        <h2 class="section-subhead">Cards in this Stack:</h2>
+                        <p>
+                            <table>                            
+                                <thead>
+                                    <th>Tag</th>
+                                    <th class="table-spacer"></th>
+                                    <th>Description</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="#title">&#60;title&#62;</a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines a title for the document</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#base">&#60;base&#62;</a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Specifies the base URL/target for all relative URLs in a document</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#style">&#60;style&#62;</a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines style information for a document</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#link">&#60;link&#62;</a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines the relationship between a document and an external resource (most used to link to style sheets)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#meta">&#60;meta&#62;</a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines metadata about an HTML document</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#noscript">&#60;noscript&#62;</a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines an alternate content for users that do not support client-side scripts</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#script">&#60;script&#62;</a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines a client-side script</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </p>
+                    </section>
+                </section>
+                <section class="content-section" id="title">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60; &#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="base">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60; &#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="style">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60; &#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="link">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60; &#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="meta">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60; &#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="noscript">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60; &#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="script">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60; &#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <!-- FORMATTING TAGS -->
+                <section class="content-section" id="formatting">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">Formatting Index A</h1>
+                        <p class="h-subline"></p>
+                   </section>
+                   <section class="subject-content">
+                        <h2 class="section-subhead">Cards in this Stack:</h2>
+                        <p>
+                            <table>                            
+                                <thead>
+                                    <th>Tag</th>
+                                    <th class="table-spacer"></th>
+                                    <th>Description</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="#h"><li>&#60;h1&#62;-&#60;h6&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Headers Size 1(Largest) - 6(Smallest)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#p"><li>&#60;p&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Paragraph Text</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#a"><li>&#60;a&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines a hyperlink</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#br"><li>&#60;br&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Adds a forced line-break</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#hr"><li>&#60;hr&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Adds a Horizontal Rule (Line)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#em"><li>&#60;em&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines emphasized text</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#strong"><li>&#60;strong&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines important text</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#aside"><li>&#60;aside&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines content aside from the page content</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#abbr"><li>&#60;abbr&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines an abbreviation or an acronym</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#address"><li>&#60;address&#62;</li></a</td>
+                                            <td class="table-spacer"></td>
+                                        <td>Defines contact information for the author/owner of a document/article</td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </p>
+                    </section>
+                </section>
+
+
+                <section class="content-section" id="h">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;h&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="p">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;p&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="a">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;a&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="br">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;br&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="hr">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;hr&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="em">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;em&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="strong">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;strong&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="aside">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;aside&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="abbr">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;abbr&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="address">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;address&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="formatting-2">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">Formatting Index B</h1>
+                        <p class="h-subline"></p>
+                   </section>
+                   <section class="subject-content">
+                        <h2 class="section-subhead">Cards in this Stack:</h2>
+                        <p>
+                            <table>                            
+                                <thead>
+                                    <th>Tag</th>
+                                    <th class="table-spacer"></th>
+                                    <th>Description</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="#b"><li>&#60;b&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines bold text</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#bdi"><li>&#60;bdi&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Isolates a part of text that might be formatted in a different direction from other text outside it</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#bdo"><li>&#60;bdo&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Overrides the current text direction</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#blockquote"><li>&#60;blockquote&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines a section that is quoted from another source</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#cite"><li>&#60;cite&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines the title of a referenced work</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#code"><li>&#60;code&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines a piece of computer code</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#del"><li>&#60;del&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines text that has been deleted from a document</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#dfn"><li>&#60;dfn&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Specifies a term that is going to be defined within the content</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#i"><li>&#60;i&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines a part of text in an alternate voice or mood</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="b">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;b&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="bdi">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;bdi&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="bdo">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;bdo&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="blockquote">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;blockquote&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="cite">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;cite&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="code">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;code&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="del">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;del&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="dfn">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;dfn&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="i">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;i&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <!-- FORMATTING PART 2 -->
+
+                <section class="content-section" id="formatting-3">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">Formatting Index C</h1>
+                        <p class="h-subline"></p>
+                   </section>
+                   <section class="subject-content">
+                        <h2 class="section-subhead">Cards in this Stack:</h2>
+                        <p>
+                            <table>
+                                <thead>
+                                    <th>Tag</th>
+                                    <th class="table-spacer"></th>
+                                    <th>Description</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="#ins"><li>&#60;ins&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines a text that has been inserted into a document</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#kbd"><li>&#60;kbd&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines keyboard input</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#mark"><li>&#60;mark&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines marked/highlighted text</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#meter"><li>&#60;meter&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines a scalar measurement within a known range (a gauge)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#pre"><li>&#60;pre&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines preformatted text</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#progress"><li>&#60;progress&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Represents the progress of a task</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#q"><li>&#60;q&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines a short quotation</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#rp"><li>&#60;rp&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines what to show in browsers that do not support ruby annotations</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#rt"><li>&#60;rt&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines an explanation/pronunciation of characters (for East Asian typography)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#ruby"><li>&#60;ruby&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines a ruby annotation (for East Asian typography)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="ins">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;ins&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="kbd">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;kbd&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="mark">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;mark&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="meter">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;meter&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="pre">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;pre&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="progress">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;progress&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="q">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;q &#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="rp">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;rp&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="rt">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;rt&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="ruby">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;ruby&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="formatting-4">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">Formatting Index D</h1>
+                        <p class="h-subline"></p>
+                   </section>
+                   <section class="subject-content">
+                        <h2 class="section-subhead">Cards in this Stack:</h2>
+                        <p>
+                            <table>                            
+                                <thead>
+                                    <th>Tag</th>
+                                    <th class="table-spacer"></th>
+                                    <th>Description</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="#s"><li>&#60;s&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines text that is no longer correct</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#samp"><li>&#60;samp&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines sample output from a computer program</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#small"><li>&#60;small&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines smaller text</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#sub"><li>&#60;sub&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines subscripted text</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#sup"><li>&#60;sup&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines superscripted text</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#template"><li>&#60;template&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines a container for content that should be hidden when the page loads</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#time"><li>&#60;time&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines a specific time (or datetime)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#u"><li>&#60;u&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines some text that is unarticulated and styled differently from normal text</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#var"><li>&#60;var&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines a variable</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#wbr"><li>&#60;wbr&#62;</li></a></td>
+                                        <td class="table-spacer"></td>
+                                        <td>Defines a possible line-break for browsers</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="s">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;s&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="samp">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;samp&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="small">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;small&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="sub">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;sub&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="sup">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;sup&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="template">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;template&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="time">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;time&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="u">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;u&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="var">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;var&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+                
+                <section class="content-section" id="wbr">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;wbr&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <!-- SEMANTICS -->
+                <section class="content-section" id="semantics">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">Semantics</h1>
+                        <p class="h-subline">Tags for getting specific about content on a webpage</p>
+                   </section>
+                   <section class="subject-content">
+                        <h2 class="section-subhead">Cards in this Stack:</h2>
+                        <p>
+                            <table>                            
+                                <thead>
+                                    <th>Tag</th>
+                                    <th class="table-spacer"></th>
+                                    <th>Description</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                        <td class="table-spacer"></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="nav">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;nav&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="style">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;style&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="div">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;div&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="span">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;span&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="hgroup">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;hgroup&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="main">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;main&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="section">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;section&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="search">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;search&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="article">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;article&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="details">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;details&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="dialog">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;dialog&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="summary">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;summary&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="data">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;data&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <!-- LISTS -->
+                <section class="content-section" id="lists">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">Lists</h1>
+                        <p class="h-subline">Tags for creating lists</p>
+                   </section>
+                   <section class="subject-content">
+                        <h2 class="section-subhead">Cards in this Stack:</h2>
+                        <p>
+                            <table>                            
+                                <thead>
+                                    <th>Tag</th>
+                                    <th class="table-spacer"></th>
+                                    <th>Description</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                        <td class="table-spacer"></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="menu">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;menu&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="ul">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;ul&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="ol">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;ol&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="li">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;li&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="dl">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;dl&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="dt">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;dt&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="dd">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;dd&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+
+                <!-- TABLES -->
+                <section class="content-section" id="tables">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">Tables</h1>
+                        <p class="h-subline">Tags for organizing data in tables</p>
+                   </section>
+                   <section class="subject-content">
+                        <h2 class="section-subhead">Cards in this Stack:</h2>
+                        <p>
+                            <table>                            
+                                <thead>
+                                    <th>Tag</th>
+                                    <th class="table-spacer"></th>
+                                    <th>Description</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                        <td class="table-spacer"></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="table">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;table&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="caption">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;caption&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="th">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;th&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="tr">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;tr&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="td">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;td&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="thead">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;thead&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="tbody">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;tbody&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="tfoot">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;tfoot&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="col">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;col&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="colgroup">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;colgroup&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <!-- MEDIA -->
+                 
+
+                    <!-- IMAGES -->
+                    <section class="content-section" id="images">
+                        <section class="subject-title">
+                            <h1 class="declaration-header">Image Tags</h1>
+                            <p class="h-subline">Media tags for image content</p>
+                       </section>
+                       <section class="subject-content">
+                            <h2 class="section-subhead">Cards in this Stack:</h2>
+                            <p>
+                                <table>                            
+                                    <thead>
+                                        <th>Tag</th>
+                                        <th class="table-spacer"></th>
+                                        <th>Description</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td></td>
+                                            <td class="table-spacer"></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+    
+                            </p>
+                        </section>
+                    </section>
+
+                    <section class="content-section" id="img">
+                        <section class="subject-title">
+                            <h1 class="declaration-header">&#60;img&#62;</h1>
+                            <p class="h-subline"></p>
+                        </section>
+                        <section class="subject-content">
+                            <h2 class="section-subhead">&#60;&#62;</h2>
+                            <p class="inline-desc"></p>
+                        </section>
+                    </section>
+
+                    <section class="content-section" id="area">
+                        <section class="subject-title">
+                            <h1 class="declaration-header">&#60;area&#62;</h1>
+                            <p class="h-subline"></p>
+                        </section>
+                        <section class="subject-content">
+                            <h2 class="section-subhead">&#60;&#62;</h2>
+                            <p class="inline-desc"></p>
+                        </section>
+                    </section>
+
+                    <section class="content-section" id="figcaption">
+                        <section class="subject-title">
+                            <h1 class="declaration-header">&#60;figcaption&#62;</h1>
+                            <p class="h-subline"></p>
+                        </section>
+                        <section class="subject-content">
+                            <h2 class="section-subhead">&#60;&#62;</h2>
+                            <p class="inline-desc"></p>
+                        </section>
+                    </section>
+
+                    <section class="content-section" id="figure">
+                        <section class="subject-title">
+                            <h1 class="declaration-header">&#60;figure&#62;</h1>
+                            <p class="h-subline"></p>
+                        </section>
+                        <section class="subject-content">
+                            <h2 class="section-subhead">&#60;&#62;</h2>
+                            <p class="inline-desc"></p>
+                        </section>
+                    </section>
+
+                    <section class="content-section" id="map">
+                        <section class="subject-title">
+                            <h1 class="declaration-header">&#60;map&#62;</h1>
+                            <p class="h-subline"></p>
+                        </section>
+                        <section class="subject-content">
+                            <h2 class="section-subhead">&#60;&#62;</h2>
+                            <p class="inline-desc"></p>
+                        </section>
+                    </section>
+
+                    <section class="content-section" id="picture">
+                        <section class="subject-title">
+                            <h1 class="declaration-header">&#60;picture&#62;</h1>
+                            <p class="h-subline"></p>
+                        </section>
+                        <section class="subject-content">
+                            <h2 class="section-subhead">&#60;&#62;</h2>
+                            <p class="inline-desc"></p>
+                        </section>
+                    </section>
+
+                    <section class="content-section" id="svg">
+                        <section class="subject-title">
+                            <h1 class="declaration-header">&#60;svg&#62;</h1>
+                            <p class="h-subline"></p>
+                        </section>
+                        <section class="subject-content">
+                            <h2 class="section-subhead">&#60;&#62;</h2>
+                            <p class="inline-desc"></p>
+                        </section>
+                    </section>
+
+                    
+
+                    <!-- VIDEO -->
+                    <section class="content-section" id="video-tags">
+                        <section class="subject-title">
+                            <h1 class="declaration-header">Video Tags</h1>
+                            <p class="h-subline">Media tags for video content</p>
+                       </section>
+                       <section class="subject-content">
+                            <h2 class="section-subhead">Cards in this Stack:</h2>
+                            <p>
+                                <table>                            
+                                    <thead>
+                                        <th>Tag</th>
+                                        <th class="table-spacer"></th>
+                                        <th>Description</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td></td>
+                                            <td class="table-spacer"></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+    
+                            </p>
+                        </section>
+                    </section>
+
+                    <section class="content-section" id="video">
+                        <section class="subject-title">
+                            <h1 class="declaration-header">&#60;video&#62;</h1>
+                            <p class="h-subline"></p>
+                        </section>
+                        <section class="subject-content">
+                            <h2 class="section-subhead">&#60;&#62;</h2>
+                            <p class="inline-desc"></p>
+                        </section>
+                    </section>
+
+                    <section class="content-section" id="vsource">
+                        <section class="subject-title">
+                            <h1 class="declaration-header">&#60;source&#62;</h1>
+                            <p class="h-subline"></p>
+                        </section>
+                        <section class="subject-content">
+                            <h2 class="section-subhead">&#60;&#62;</h2>
+                            <p class="inline-desc"></p>
+                        </section>
+                    </section>
+
+                    <section class="content-section" id="vtrack">
+                        <section class="subject-title">
+                            <h1 class="declaration-header">&#60;track&#62;</h1>
+                            <p class="h-subline"></p>
+                        </section>
+                        <section class="subject-content">
+                            <h2 class="section-subhead">&#60;&#62;</h2>
+                            <p class="inline-desc"></p>
+                        </section>
+                    </section>
+
+                    <!-- AUDIO -->
+                    <section class="content-section" id="audio-tags">
+                        <section class="subject-title">
+                            <h1 class="declaration-header">Audio Tags</h1>
+                            <p class="h-subline">Media tags for audio content</p>
+                       </section>
+                       <section class="subject-content">
+                            <h2 class="section-subhead">Cards in this Stack:</h2>
+                            <p>
+                                <table>                            
+                                    <thead>
+                                        <th>Tag</th>
+                                        <th class="table-spacer"></th>
+                                        <th>Description</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td></td>
+                                            <td class="table-spacer"></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+    
+                            </p>
+                        </section>
+                    </section>
+
+                    <section class="content-section" id="audio">
+                        <section class="subject-title">
+                            <h1 class="declaration-header">&#60;audio&#62;</h1>
+                            <p class="h-subline"></p>
+                        </section>
+                        <section class="subject-content">
+                            <h2 class="section-subhead">&#60;&#62;</h2>
+                            <p class="inline-desc"></p>
+                        </section>
+                    </section>
+
+                    <section class="content-section" id="source">
+                        <section class="subject-title">
+                            <h1 class="declaration-header">&#60;source&#62;</h1>
+                            <p class="h-subline"></p>
+                        </section>
+                        <section class="subject-content">
+                            <h2 class="section-subhead">&#60;&#62;</h2>
+                            <p class="inline-desc"></p>
+                        </section>
+                    </section>
+
+                    <section class="content-section" id="track">
+                        <section class="subject-title">
+                            <h1 class="declaration-header">&#60;track&#62;</h1>
+                            <p class="h-subline"></p>
+                        </section>
+                        <section class="subject-content">
+                            <h2 class="section-subhead">&#60;&#62;</h2>
+                            <p class="inline-desc"></p>
+                        </section>
+                    </section>
+
+                    <!-- WEB -->
+                    <section class="content-section" id="web">
+                        <section class="subject-title">
+                            <h1 class="declaration-header">Web Tags</h1>
+                            <p class="h-subline">Media tags for web content</p>
+                       </section>
+                       <section class="subject-content">
+                            <h2 class="section-subhead">Cards in this Stack:</h2>
+                            <p>
+                                <table>                            
+                                    <thead>
+                                        <th>Tag</th>
+                                        <th class="table-spacer"></th>
+                                        <th>Description</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td></td>
+                                            <td class="table-spacer"></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+    
+                            </p>
+                        </section>
+                    </section>
+
+                    <section class="content-section" id="iframe">
+                        <section class="subject-title">
+                            <h1 class="declaration-header">&#60;iframe&#62;</h1>
+                            <p class="h-subline"></p>
+                        </section>
+                        <section class="subject-content">
+                            <h2 class="section-subhead">&#60;&#62;</h2>
+                            <p class="inline-desc"></p>
+                        </section>
+                    </section>
+
+                <!-- FORMS / INPUT -->
+                <section class="content-section" id="forms">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">Forms / Input</h1>
+                        <p class="h-subline"></p>
+                   </section>
+                   <section class="subject-content">
+                        <h2 class="section-subhead">Cards in this Stack:</h2>
+                        <p>
+                            <table>                            
+                                <thead>
+                                    <th>Tag</th>
+                                    <th class="table-spacer"></th>
+                                    <th>Description</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                        <td class="table-spacer"></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="form">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;form&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="input">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;input&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="textarea">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;textarea&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="button">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;button&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="select">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;select&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="optgroup">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;optgroup&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="option">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;option&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="label">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;label&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="fieldset">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;fieldset&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="legend">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;legend&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="datalist">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;datalist&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="output">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;output&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <!-- PROGRAMMING -->
+                <section class="content-section" id="programming">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">Programming Tags</h1>
+                        <p class="h-subline"></p>
+                   </section>
+                   <section class="subject-content">
+                        <h2 class="section-subhead">Cards in this Stack:</h2>
+                        <p>
+                            <table>                            
+                                <thead>
+                                    <th>Tag</th>
+                                    <th class="table-spacer"></th>
+                                    <th>Description</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                        <td class="table-spacer"></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="embed">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;embed&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="object">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;object&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+                <section class="content-section" id="param">
+                    <section class="subject-title">
+                        <h1 class="declaration-header">&#60;param&#62;</h1>
+                        <p class="h-subline"></p>
+                    </section>
+                    <section class="subject-content">
+                        <h2 class="section-subhead">&#60;&#62;</h2>
+                        <p class="inline-desc"></p>
+                    </section>
+                </section>
+
+
+                <section class="trans-section"></section>
+            </section>
+     </body>
+     <footer>
+        <p>Made by Orion | 2024</p>
+     </footer>
+</html>

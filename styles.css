@@ -1,0 +1,321 @@
+a .anchor{   
+    display: block; 
+    position: relative; 
+    visibility: hidden; 
+    top: -100px;  
+   }
+
+
+body {
+    font-family: "Baloo Paaji 2", sans-serif;
+    height: 90vh;
+    width: 93vw;
+    padding: 10px;
+    background-color: #433878;
+}
+
+
+/*------------------------------------------------------*/
+/* HEADER / PAGE TITLE                                  */
+/*------------------------------------------------------*/
+
+.header-content {
+    position: static;
+    top: 0;
+    left: 1vh;
+    width: 50vh;
+    height: 8vh;
+    z-index: 10;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    font-size: 1vw;
+    font-family: "Baloo Paaji 2", sans-serif;
+}
+
+.h-title {
+    margin-top: -5px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.h-subline {
+    display: inline;
+    font-size: 1.1vw;
+}
+
+
+/*------------------------------------------------------*/
+/* NAVIGATION                                           */
+/*------------------------------------------------------*/
+
+nav {
+    position: absolute;
+    margin-top: 1vh; /* Adjust to account for the header */
+    left: 0.8vw;
+    min-width: fit-content;
+    width: 15vw;
+    max-width: 15vw;
+    height: 75vh; /* Allow the nav to take up almost the full height */
+    max-height: 75vh;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable if there are too many items */
+    background-color: #FFE1FF;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+nav a {
+    color: black;
+    font-weight: 400;
+}
+
+nav a:visited {
+    color: black;
+}
+
+.nav-subsection {
+    display: block;
+    margin-left: 10px;
+    top: 0px;
+}
+
+.nav-subsubsection {
+    display: block;
+    margin-left: 20px;
+    top: 0px;
+}
+
+.nav-header {
+    display: inline-block;
+    padding-bottom: 0px;
+}
+
+.nav-subheader {
+    display: inline;
+    font-size: medium;
+}
+/*------------------------------------------------------*/
+/* SCROLL BAR                                           */
+/*------------------------------------------------------*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px transparent; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #E4B1F0; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7E60BF; 
+  }
+
+
+/*------------------------------------------------------*/
+/* CONTENT                                              */
+/*------------------------------------------------------*/
+.content-container{
+    position: absolute;
+    display: inline-block;
+    margin-top: 1vh; 
+    left: 18vw;
+    right: 10%;
+    height: 78vh; /* Full viewport height */
+    width: 73.3vw;
+    max-width: 73.3vw;
+    margin-bottom: 100px;
+    padding-top: 0px;
+    /* border: 3px solid yellow; */
+    overflow-x: hidden;
+    overflow-y: scroll; /* Enable vertical scrolling */
+    scroll-snap-type: y mandatory; /* Snap vertically, make snapping mandatory */
+    
+}
+
+.content-section {
+    scroll-snap-align: start; /* Snap to the start (top) of the section */
+    height: 77vh; /* Each card takes up the full height of the viewport */
+    width: 99%;
+    display: block;
+    background-color: transparent;
+    margin-bottom: 30px; /* Optional: Add some spacing between cards */
+}
+
+.content-section table{
+    display: inline-table;
+    background-color: #FFE1FF;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 50%;
+    width: fit-content;
+}
+
+.trans-section {
+    position: sticky;
+    top: 30px;
+    display: block;
+    width: 100%;
+    height: 500px;
+    margin: 30px 5px;
+}
+/*------------------------------------------------------*/
+/* CARD FORMATTING                                      */
+/*------------------------------------------------------*/
+.subject-title {
+    position: static;
+    display: block;
+    background-color: #E4B1F0;
+    padding-bottom: 40px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    width: 50%;
+    height: 10vh;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.first-subject-title {
+    position: static;
+    display: block;
+    background-color: #E4B1F0;
+    padding-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 50%;
+    height: 10vh;
+    color: white;
+    text-align: center;
+}
+
+.declaration-header {
+    font-size: 2.5vw;
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+.subject-content {
+    position: static;
+    display: block;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    padding: 10px;
+    width: 98%;
+    height: 82%;
+    background-color: #7E60BF;
+    border-radius: 0px 10px 10px 10px;
+}
+
+.subject-content a {
+    color: #1b1b1b;
+    font-size: large;
+    font-weight: 600;
+}
+
+.section-subhead {
+    margin-top: -19.920;
+    width: 50%;
+    background-color: #E4B1F0;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+
+th{
+    font-weight: 600;
+    border-bottom: 3px solid #555;
+}
+
+.table-spacer {
+    border-bottom: transparent;
+    width: 30px;
+}
+
+code {
+    display: block;
+    background-color: #333333 !important; 
+    color: white;
+    width: 70% !important;
+}
+
+.inline-desc {
+    width: fit-content;
+    background-color: #FFE1FF;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+/*------------------------------------------------------*/
+/* TOOLTIPS                                             */
+/*------------------------------------------------------*/
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted slategray;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: palegoldenrod;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*------------------------------------------------------*/
+/* FOOTER                                               */
+/*------------------------------------------------------*/
+
+
+footer {
+    position: fixed;
+    text-align: center;
+    top: 90%;
+    bottom: 0px;
+    color: white;
+}
