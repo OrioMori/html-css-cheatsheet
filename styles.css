@@ -254,9 +254,16 @@ code {
 
 .inline-desc {
     width: fit-content;
+    min-width: 50%;
+    display: block;
     background-color: #FFE1FF;
     border-radius: 10px;
     padding: 5px;
+}
+
+.inline-list {
+    position: relative;
+    left: 10px;
 }
 
 
