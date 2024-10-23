@@ -39,9 +39,14 @@ body {
     margin-bottom: 0px;
 }
 
+.header-subline {
+    display: inline;
+    font-size: 2.1vh;
+}
+
 .h-subline {
     display: inline;
-    font-size: 1.1vw;
+    font-size: 2.1vh;
 }
 
 
@@ -196,6 +201,7 @@ nav a:visited {
     margin-top: 10px;
     margin-bottom: 0px;
     width: 50%;
+    border-radius: 10px 10px 0px 10px;
     height: 10vh;
     color: white;
     text-align: center;
@@ -228,12 +234,20 @@ nav a:visited {
 
 .section-subhead {
     margin-top: -19.920;
-    width: 50%;
+    width: fit-content;
     background-color: #E4B1F0;
     border-radius: 10px;
     padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+    font-weight: 800;
+    font-size: 2vh;
 }
 
+.section-desc {
+    display: inline;
+    
+}
 
 th{
     font-weight: 600;
@@ -245,11 +259,22 @@ th{
     width: 30px;
 }
 
+.attr-table {
+    height: 50px !important;
+    width: fit-content;
+    overflow-y: scroll;
+}
+
+
 code {
     display: block;
     background-color: #333333 !important; 
     color: white;
     width: 70% !important;
+}
+
+.greentext {
+    color: darkgoldenrod !important;
 }
 
 .inline-desc {
